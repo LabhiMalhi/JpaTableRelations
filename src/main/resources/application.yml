@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:appdb
+    username: sa
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      path: /h2
+      enabled: true
+
+
